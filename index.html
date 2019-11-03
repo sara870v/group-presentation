@@ -28,7 +28,7 @@
         </g>
       </svg>
 
-      <button>Start</button>
+      <button id="start">Start</button>
     </div>
 
     <div class="intro hidden">
@@ -44,6 +44,43 @@
       <img src="img/natalie.jpg" alt="" class="spotlight-enter-active" />
       <h1 class="natalie-name hidden">Natalie Sirich</h1>
     </div>
+
+    <div class="info hidden">
+      <svg viewBox="0 0 800 600">
+        <symbol id="s-text">
+          <text text-anchor="middle" x="50%" y="35%" class="text--line">
+            Assignment
+          </text>
+          <text text-anchor="middle" x="50%" y="68%" class="text--line2">
+            14C.01.05
+          </text>
+        </symbol>
+
+        <g class="g-ants">
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+        </g>
+      </svg>
+    </div>
+
+    <div class="sarah hidden">
+      <h2>Sarah Davidsen</h2>
+      <svg class="svg-graphic" width="180" height="200" viewBox="0 0 560 645" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" version="1.1">
+        <g>
+          <clipPath id="hexagonal-mask">
+            <polygon points="130,0 0,160 0,485 270,645 560,485 560,160" />
+          </clipPath>
+        </g>
+        <a>
+          <image clip-path="url(#hexagonal-mask)" height="100%" width="100%" xlink:href="img/sarah.jpg" class="spotlight-enter-active" />
+        </a>
+      </svg>
+    </div>
+
+    <audio id="musik" src="The_Office.mp3"></audio>
 
     <script src="script.js"></script>
   </body>
